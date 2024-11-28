@@ -28,12 +28,6 @@ class SQSEventHandler:
         :param output_queue_name: Name of the output SQS queue
         """
 
-        print(f"aws_access_key_id: {aws_access_key_id}")
-        print(f"aws_secret_access_key: {aws_secret_access_key}")
-        print(f"aws_region_name: {aws_region_name}")
-        print(f"input_queue_name: {input_queue_name}")
-        print(f"output_queue_name: {output_queue_name}")
-
         # Configure logging
         logging.basicConfig(
             level=logging.INFO,
